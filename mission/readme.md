@@ -7,13 +7,13 @@
 ## Tiền xử lý để tìm insight
 
 - 2 file dữ liệu 2018 và 2019 không có cùng field
-    - Hiển thị các fields (có 18 field chung, bao gồm Reference Number)
+    - Hiển thị các fields (có 17 field chung, bao gồm Reference Number)
     - Cho biết ý nghĩa các cột và tiền xử lý luôn
-        - Bảo: `1st Road Class`, `1st Road Class & No`, `Accident Date`,`Age of Casualty`
+        - Bảo: `1st Road Class`, `1st Road Class & No`, `Accident Date`
         - Quý: `Casualty Class`, `Casualty Severity`, `Grid Ref: Easting`, `Grid Ref: Northing`
         - Đỗ Liên Khoa: `Lighting Conditions`, `Local Authority`, `Number of Vehicles`, `Road Surface`
         - Phúc: `Sex of Casualty`, `Time (24hr)`, `Type of Vehicle`,
-        - Tài Minh: `Vehicle Number`, `Weather Conditions`, `Reference Number`
+        - Tài Minh: `Weather Conditions`, `Reference Number`,`Age of Casualty`
 
 - Gom nhóm 2 file thành 1 file: Sau khi có file này trên Github, mọi người sẽ làm việc trên file đó.
 - Deadline: 20/04/2021 - 23h
