@@ -4,7 +4,7 @@
 
 ## Trường dữ liệu
 
-- `Reference Number`: 
+- `Reference Number`: Mã hóa các vụ tai nạn, dtype: int64
 
 - `Grid Ref: Easting`: 
 
@@ -48,7 +48,7 @@
         - 5: Buổi tối, không có đèn đường.
         - 6: Buổi tối, không biết điều kiện đèn đường.
 
-- `Weather Conditions`: 
+- `Weather Conditions`: Điều kiện thời tiết khi xảy ra tai nạn, dtype = int64
 
 - `Local Authority`: Mã thành phố nơi xảy ra tai nạn. Datatype = 'object'
 
@@ -84,7 +84,7 @@
         - 1: nam.
         - 2: nữ.
 
-- `Age of Casualty`: 
+- `Age of Casualty`: Độ tuổi của nạn nhân trong vụ tai nạn giao thông, dtype: int 64
 
 ## Tham khảo
 
