@@ -10,7 +10,7 @@
 
 - `Grid Ref: Northing`: 
 
-- `Number of Vehicles`: 
+- `Number of Vehicles`: Số lượng phương tiên liên quan đến vụ tai nạn. Datatype = 'int64'
 
 - `Accident Date`: Ngày xảy ra vụ tai nạn. Datatype = 'object'
 
@@ -28,13 +28,26 @@
 
 - `1st Road Class & No`: Tên đường hoàn chỉnh - chỉ một con đường duy nhất. Bao gồm tiền tố chỉ loại đường và số đường. Datatype = 'object'
 
-- `Road Surface`: 
+- `Road Surface`: Điều kiện mặt đường lúc xảy ra tai nạn. Datatype = 'int64'
+    - Được chia thành 5 loại:
+        - 1: Khô ráo.
+        - 2: Ẩm ướt.
+        - 3: Snow.
+        - 4: Đóng băng.
+        - 5: Ngập nước.
 
-- `Lighting Conditions`: 
+- `Lighting Conditions`: Điều kiện ánh sáng tại thời điểm xảy ra tai nạn. Datatype = 'int64'
+    - Được chia thành 5 loại:
+        - 1: Buổi sáng, có đèn đường.
+        - 2: Buổi sáng, không có đèn đường.
+        - 3: Buổi sáng, không biết điều kiện đèn đường.
+        - 4: Buổi tối, có đèn đường.
+        - 5: Buổi tối, không có đèn đường.
+        - 6: Buổi tối, không biết điều kiện đèn đường.
 
 - `Weather Conditions`: 
 
-- `Local Authority`: 
+- `Local Authority`: Mã thành phố nơi xảy ra tai nạn. Datatype = 'object'
 
 - `Type of Vehicle`: 
 
