@@ -2,6 +2,8 @@
 
 - Tại đây chứa các thông tin cơ bản về các trường dữ liệu trong file `../../Data/data_2018_2019.csv`
 
+## Trường dữ liệu
+
 - `Reference Number`: 
 
 - `Grid Ref: Easting`: 
@@ -43,3 +45,7 @@
 - `Sex of Casualty`: 
 
 - `Age of Casualty`: 
+
+## Tham khảo
+
+- https://www.eastriding.gov.uk/environment/roads-streets-traffic-and-parking/roads-pavements-and-traffic/classification-of-roads/
