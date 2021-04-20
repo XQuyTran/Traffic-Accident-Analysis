@@ -14,7 +14,10 @@
 
 - `Accident Date`: Ngày xảy ra vụ tai nạn. Datatype = 'object'
 
-- `Time (24hr)`: 
+- `Time (24hr)`: Thời gian xảy ra vụ tai nạn giao thông. Datatype = 'int64'.
+    - Với a là giá trị cột "Time (24hr)". Thời gian cụ thể được tính:
+        - Só giờ = (a - (a % 100)) // 100
+        - Số phút = a % 100  
 
 - `1st Road Class`: Tiền tố của tên đường. Datatype = 'object' 
     - Ở UK, tên đường được chia thành 2 phần: Tiền tố ứng với loại đường, hậu tố ứng với số đường
@@ -49,13 +52,37 @@
 
 - `Local Authority`: Mã thành phố nơi xảy ra tai nạn. Datatype = 'object'
 
-- `Type of Vehicle`: 
+- `Type of Vehicle`: Loại của phương tiện trong vụ tai nạn giao thông. Datatype = 'int64'
+    - Gồm 20 loại:
+        - 1: Xe có bàn đạp(pedal).
+        - 2: Xe moto có phân khối <= 50cc.
+        - 3: Xe moto có phân khối trong khoảng 50cc -> 125cc.
+        - 4: Xe moto có phân khối trong 125cc -> 500cc.
+        - 5: Xe moto có phân khối > 500cc.
+        - 8: Xe taxi hoặc được cho thuê.
+        - 9. Xe ô tô.
+        - 10: Bux nhỏ (8 đến 16 chỗ).
+        - 11: Xe khách hoặc xe bus (trên 17 chỗ).
+        - 14: Các loại xe cơ giới khác.
+        - 15: Các loại xe thô sơ khác.
+        - 16: Có sử dụng ngựa.
+        - 17: Xe nông nghiệp.
+        - 18: Xe điện chạy trên đường ray (đường sắt nhẹ- thường được dùng trong đô thị).
+        - 19: Phương tiện chở hàng <= 3.5 tấn.
+        - 20: Phương tiện chở hàng từ 3.5 tấn -> 7.5 tấn.
+        - 21: Phương tiện chở hàng > 7.5 tấn.
+        - 22: Xe điện cơ động.
+        - 90: Các phương tiện khác. 
+        - 97: Xe moto chưa biết phân khối.
 
 - `Casualty Class`: 
 
 - `Casualty Severity`: 
 
-- `Sex of Casualty`: 
+- `Sex of Casualty`: Giới tính của nạn nhân vụ tai nạn giao thông. Datatype = 'int64'.
+    - Gồm 2 loại:
+        - 1: nam.
+        - 2: nữ.
 
 - `Age of Casualty`: 
 
