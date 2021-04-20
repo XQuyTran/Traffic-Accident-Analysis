@@ -49,6 +49,15 @@
         - 6: Buổi tối, không biết điều kiện đèn đường.
 
 - `Weather Conditions`: Điều kiện thời tiết khi xảy ra tai nạn, dtype = int64
+	- 1: Thời tiết tốt và không có gió lớn
+	- 2: Thời tiết mưa và không có gió lớn
+	- 3: THời tiết có tuyết và không có gió lớn
+	- 4: THời tiết tốt và gió lớn
+	- 5: THời tiết mưa và gió lớn
+	- 6: Thời tiết có tuyết và gió lớn
+	- 7: THời tiết có sương mù (nguy hiểm)
+	- 8: THời tiết khác
+	- 9: Thời tiết không xác định
 
 - `Local Authority`: Mã thành phố nơi xảy ra tai nạn. Datatype = 'object'
 
