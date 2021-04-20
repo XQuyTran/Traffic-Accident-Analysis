@@ -6,9 +6,9 @@
 
 - `Reference Number`: Mã hóa các vụ tai nạn, dtype: int64
 
-- `Grid Ref: Easting`: 
+- `Grid Ref: Easting`: Hoành độ nơi xảy ra tai nạn dựa trên hệ tham chiếu lưới của nước Anh. Datatype = int64
 
-- `Grid Ref: Northing`: 
+- `Grid Ref: Northing`: Tung độ nơi xảy ra tai nạn dựa trên hệ tham chiếu lưới của nước Anh. Datatype = int64
 
 - `Number of Vehicles`: Số lượng phương tiên liên quan đến vụ tai nạn. Datatype = 'int64'
 
@@ -75,9 +75,17 @@
         - 90: Các phương tiện khác. 
         - 97: Xe moto chưa biết phân khối.
 
-- `Casualty Class`: 
+- `Casualty Class`: Đối tượng bị thương tích/hư hại trong vụ tai nạn. Datatype = int64
+	- Bao gồm 3 loại:
+		- 1: Người điều khiển phương tiện.
+		- 2: Phương tiện hay hành khách đi cùng.
+		- 3: Người đi bộ.
 
-- `Casualty Severity`: 
+- `Casualty Severity`: Mức độ nghiêm trọng của nạn nhân bị thương tích trong vụ tai nạn. Datatype = int64
+	- Bao gồm 3 loại:
+		- 1: Tử vong.
+		- 2: Nghiêm trọng.
+		- 3: Nhẹ.
 
 - `Sex of Casualty`: Giới tính của nạn nhân vụ tai nạn giao thông. Datatype = 'int64'.
     - Gồm 2 loại:
