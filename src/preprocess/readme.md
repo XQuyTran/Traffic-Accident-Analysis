@@ -16,7 +16,7 @@
 
 - `Time (24hr)`: Thời gian xảy ra vụ tai nạn giao thông. Datatype = 'int64'.
     - Với a là giá trị cột "Time (24hr)". Thời gian cụ thể được tính:
-        - Só giờ = (a - (a % 100)) // 100
+        - Số giờ = (a - (a % 100)) // 100
         - Số phút = a % 100  
 
 - `1st Road Class`: Tiền tố của tên đường. Datatype = 'object' 
@@ -60,7 +60,7 @@
         - 4: Xe moto có phân khối trong 125cc -> 500cc.
         - 5: Xe moto có phân khối > 500cc.
         - 8: Xe taxi hoặc được cho thuê.
-        - 9. Xe ô tô.
+        - 9: Xe ô tô.
         - 10: Bux nhỏ (8 đến 16 chỗ).
         - 11: Xe khách hoặc xe bus (trên 17 chỗ).
         - 14: Các loại xe cơ giới khác.
