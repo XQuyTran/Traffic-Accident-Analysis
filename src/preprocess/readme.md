@@ -1,6 +1,10 @@
 # Khám phá dữ liệu
 
-- Tại đây chứa các thông tin cơ bản về các trường dữ liệu trong file `../../Data/data_2018_2019.csv`
+- Tại đây chứa các file xử lý dataset `../../Data/data_2018_2019.csv`
+- Ý nghĩa các file/folder
+    - `tmp`: Folder chứa các file (tạm) tiền xử lý (với mục đích phân tích) cho `../../Data/data_2018_2019.csv`.
+    - `merge_data.ipynb`: Nguồn dữ liệu chỉ cung cấp dữ liệu theo năm. Các file dữ liệu có một vài khác biệt nhỏ. Do đó phải tiến hành gom chung vào 1 file và làm việc trên file này.
+    - `preprocess.ipynb`: Chứa code tiền xử lý để phân tích dữ liệu.
 
 ## Trường dữ liệu
 
