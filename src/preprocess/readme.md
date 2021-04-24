@@ -17,7 +17,7 @@
 - `Time (24hr)`: Thời gian xảy ra vụ tai nạn giao thông. Datatype = 'int64'.
     - Với a là giá trị cột "Time (24hr)". Thời gian cụ thể được tính:
         - Số giờ = (a - (a % 100)) // 100
-        - Số phút = a % 100  
+        - Số phút = a % 100
 
 - `1st Road Class`: Tiền tố của tên đường. Datatype = 'object' 
     - Ở UK, tên đường được chia thành 2 phần: Tiền tố ứng với loại đường, hậu tố ứng với số đường
@@ -31,24 +31,22 @@
 
 - `1st Road Class & No`: Tên đường hoàn chỉnh - chỉ một con đường duy nhất. Bao gồm tiền tố chỉ loại đường và số đường. Datatype = 'object'
 
-- `Road Surface`: Điều kiện mặt đường lúc xảy ra tai nạn. Datatype = 'int64'
-    - Được chia thành 5 loại:
-        - 1: Khô ráo.
-        - 2: Ẩm ướt.
-        - 3: Snow.
-        - 4: Đóng băng.
-        - 5: Ngập nước.
+- `Road Surface`: Điều kiện mặt đường lúc xảy ra tai nạn. Datatype = 'int64'. Được chia thành 5 loại:
+    - 1: Khô ráo.
+    - 2: Ẩm ướt.
+    - 3: Snow.
+    - 4: Đóng băng.
+    - 5: Ngập nước.
 
-- `Lighting Conditions`: Điều kiện ánh sáng tại thời điểm xảy ra tai nạn. Datatype = 'int64'
-    - Được chia thành 5 loại:
-        - 1: Buổi sáng, có đèn đường.
-        - 2: Buổi sáng, không có đèn đường.
-        - 3: Buổi sáng, không biết điều kiện đèn đường.
-        - 4: Buổi tối, có đèn đường.
-        - 5: Buổi tối, không có đèn đường.
-        - 6: Buổi tối, không biết điều kiện đèn đường.
+- `Lighting Conditions`: Điều kiện ánh sáng tại thời điểm xảy ra tai nạn. Datatype = 'int64'. Được chia thành 5 loại:
+    - 1: Buổi sáng, có đèn đường.
+    - 2: Buổi sáng, không có đèn đường.
+    - 3: Buổi sáng, không biết điều kiện đèn đường.
+    - 4: Buổi tối, có đèn đường.
+    - 5: Buổi tối, không có đèn đường.
+    - 6: Buổi tối, không biết điều kiện đèn đường.
 
-- `Weather Conditions`: Điều kiện thời tiết khi xảy ra tai nạn, dtype = int64
+- `Weather Conditions`: Điều kiện thời tiết khi xảy ra tai nạn. Datatype = 'int64'
 	- 1: Thời tiết tốt và không có gió lớn
 	- 2: Thời tiết mưa và không có gió lớn
 	- 3: THời tiết có tuyết và không có gió lớn
@@ -61,45 +59,41 @@
 
 - `Local Authority`: Mã thành phố nơi xảy ra tai nạn. Datatype = 'object'
 
-- `Type of Vehicle`: Loại của phương tiện trong vụ tai nạn giao thông. Datatype = 'int64'
-    - Gồm 20 loại:
-        - 1: Xe có bàn đạp(pedal).
-        - 2: Xe moto có phân khối <= 50cc.
-        - 3: Xe moto có phân khối trong khoảng 50cc -> 125cc.
-        - 4: Xe moto có phân khối trong 125cc -> 500cc.
-        - 5: Xe moto có phân khối > 500cc.
-        - 8: Xe taxi hoặc được cho thuê.
-        - 9: Xe ô tô.
-        - 10: Bux nhỏ (8 đến 16 chỗ).
-        - 11: Xe khách hoặc xe bus (trên 17 chỗ).
-        - 14: Các loại xe cơ giới khác.
-        - 15: Các loại xe thô sơ khác.
-        - 16: Có sử dụng ngựa.
-        - 17: Xe nông nghiệp.
-        - 18: Xe điện chạy trên đường ray (đường sắt nhẹ- thường được dùng trong đô thị).
-        - 19: Phương tiện chở hàng <= 3.5 tấn.
-        - 20: Phương tiện chở hàng từ 3.5 tấn -> 7.5 tấn.
-        - 21: Phương tiện chở hàng > 7.5 tấn.
-        - 22: Xe điện cơ động.
-        - 90: Các phương tiện khác. 
-        - 97: Xe moto chưa biết phân khối.
+- `Type of Vehicle`: Loại của phương tiện trong vụ tai nạn giao thông. Datatype = 'int64'. Gồm 20 loại:
+    - 1: Xe có bàn đạp(pedal).
+    - 2: Xe moto có phân khối <= 50cc.
+    - 3: Xe moto có phân khối trong khoảng 50cc -> 125cc.
+    - 4: Xe moto có phân khối trong 125cc -> 500cc.
+    - 5: Xe moto có phân khối > 500cc.
+    - 8: Xe taxi hoặc được cho thuê.
+    - 9: Xe ô tô.
+    - 10: Bux nhỏ (8 đến 16 chỗ).
+    - 11: Xe khách hoặc xe bus (trên 17 chỗ).
+    - 14: Các loại xe cơ giới khác.
+    - 15: Các loại xe thô sơ khác.
+    - 16: Có sử dụng ngựa.
+    - 17: Xe nông nghiệp.
+    - 18: Xe điện chạy trên đường ray (đường sắt nhẹ- thường được dùng trong đô thị).
+    - 19: Phương tiện chở hàng <= 3.5 tấn.
+    - 20: Phương tiện chở hàng từ 3.5 tấn -> 7.5 tấn.
+    - 21: Phương tiện chở hàng > 7.5 tấn.
+    - 22: Xe điện cơ động.
+    - 90: Các phương tiện khác. 
+    - 97: Xe moto chưa biết phân khối.
 
-- `Casualty Class`: Đối tượng bị thương tích/hư hại trong vụ tai nạn. Datatype = int64
-	- Bao gồm 3 loại:
-		- 1: Người điều khiển phương tiện.
-		- 2: Phương tiện hay hành khách đi cùng.
-		- 3: Người đi bộ.
+- `Casualty Class`: Đối tượng bị thương tích/hư hại trong vụ tai nạn. Datatype = 'int64'. Bao gồm 3 loại:
+    - 1: Người điều khiển phương tiện.
+    - 2: Phương tiện hay hành khách đi cùng.
+    - 3: Người đi bộ.
 
-- `Casualty Severity`: Mức độ nghiêm trọng của nạn nhân bị thương tích trong vụ tai nạn. Datatype = int64
-	- Bao gồm 3 loại:
-		- 1: Tử vong.
-		- 2: Nghiêm trọng.
-		- 3: Nhẹ.
+- `Casualty Severity`: Mức độ nghiêm trọng của nạn nhân bị thương tích trong vụ tai nạn. Datatype = int64. Bao gồm 3 loại:
+    - 1: Tử vong.
+    - 2: Nghiêm trọng.
+    - 3: Nhẹ.
 
-- `Sex of Casualty`: Giới tính của nạn nhân vụ tai nạn giao thông. Datatype = 'int64'.
-    - Gồm 2 loại:
-        - 1: nam.
-        - 2: nữ.
+- `Sex of Casualty`: Giới tính của nạn nhân vụ tai nạn giao thông. Datatype = 'int64'. Gồm 2 loại:
+    - 1: nam.
+    - 2: nữ.
 
 - `Age of Casualty`: Độ tuổi của nạn nhân trong vụ tai nạn giao thông, dtype: int 64
 
