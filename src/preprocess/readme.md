@@ -87,7 +87,7 @@
 
 - `Casualty Class`: Đối tượng bị thương tích/hư hại trong vụ tai nạn. Datatype = 'int64'. Bao gồm 3 loại:
     - 1: Người điều khiển phương tiện.
-    - 2: Phương tiện hay hành khách đi cùng.
+    - 2: Hành khách đi cùng.
     - 3: Người đi bộ.
 
 - `Casualty Severity`: Mức độ nghiêm trọng của nạn nhân bị thương tích trong vụ tai nạn. Datatype = int64. Bao gồm 3 loại:
