@@ -46,9 +46,10 @@
     - 1: Buổi sáng, có đèn đường.
     - 2: Buổi sáng, không có đèn đường.
     - 3: Buổi sáng, không biết điều kiện đèn đường.
-    - 4: Buổi tối, có đèn đường.
-    - 5: Buổi tối, không có đèn đường.
-    - 6: Buổi tối, không biết điều kiện đèn đường.
+    - 4: Buổi tối, có đèn đường và đèn được bật đèn.
+    - 5: Buổi tối, có đèn đường nhưng không bật đèn.
+    - 6: Buổi tối, không có đèn đường.
+    - 7: Buổi tối, không biết điều kiện đèn đường.
 
 - `Weather Conditions`: Điều kiện thời tiết khi xảy ra tai nạn. Datatype = 'int64'
 	- 1: Thời tiết tốt và không có gió lớn
