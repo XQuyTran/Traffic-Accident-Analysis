@@ -1,7 +1,7 @@
 # Traffic Accident Analysis
 
 - Đồ án cuối kỳ môn Phân tích dữ liệu thông minh.
-- Phân tích dữ liệu giao thông năm 2018 & 2019 tại UK.
+- Phân tích dữ liệu giao thông năm từ 2014 đến 2019 tại UK.
 - Nguồn dữ liệu: https://www.europeandataportal.eu/data/datasets/road-traffic-accidents?locale=en
 
 ## Thông tin nhóm 
