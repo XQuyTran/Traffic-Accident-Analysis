@@ -12,3 +12,19 @@
     - 18120231 - Trần Xuân Quý
     - 18120413 - Đỗ Liên Khoa
     - 18120544 - Trương Minh Tài
+
+## Phân công công việc
+
+- Nguyễn Bảo Long, Đỗ Liên Khoa
+    - Phân tích xu hướng tai nạn
+    - Thực hiện kiểm định bằng phân phối Chi-square
+    - Phân tích quan hệ giữa các thuộc tính định danh và mức độ nghiêm trọng của tai nạn
+    - Dự đoán mức độ nghiêm trọng của vụ tai nạn
+
+- Vũ Hồng Phúc, Đỗ Liên Khoa, Trương Minh Tài
+    - Vẽ các biểu đồ phần Phân tích mô tả
+    - Nhận xét biểu đồ
+
+- Trần Xuân Quý
+    - Phân tích quan hệ giữa các thuộc tính liên tục và mức độ nghiêm trọng của tai nạn
+    - Phân tích vị trí xảy ra tai nạn
